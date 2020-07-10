@@ -5,7 +5,7 @@ Simple example of the `client-go` SharedInformer that can be used to do all kind
 
 1)  Clone this repo - `git clone https://github.com/venkyvb/k8s-sharedinformer.git`
 2)  `cd k8s-sharedinformer`
-3)  Update the path to the KUBECONFIG file (assumes that this app is running outside the cluster)
+3)  [Update](https://github.com/venkyvb/k8s-sharedinformer/blob/master/main.go#L18) the path to the KUBECONFIG file (assumes that this app is running outside the cluster)
 4)  Do a local K8S cluster set-up either using the Docker Desktop or the much more lightweight and awesome [Kind](https://kind.sigs.k8s.io/)
 5)  To update the go-mod dependencies run `go get`
 6)  Run the app - `go run main.go`.
